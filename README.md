@@ -12,3 +12,7 @@ Download the assignment instructions for assignment 1, complete the missing sect
 assignment, and add the lecturer's user as a developer.
 
 Instructions for adding changes to this repo to your own will be provided in due course.
+
+## Bugfixes
+1. Fixed calculation errors in MLE test cases
+
