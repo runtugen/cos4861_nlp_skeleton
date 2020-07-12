@@ -44,6 +44,14 @@ class Token:
     def __eq__(self, other):
         return self.__repr__() == other.__repr__()
 
+    @property
+    def tag(self):
+        return self._tag
+
+    @tag.setter
+    def tag(self, tag):
+        self._tag = tag
+
 
 class ATokenizer:
     """
